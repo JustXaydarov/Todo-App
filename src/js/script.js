@@ -50,7 +50,6 @@ todoList.addEventListener("click", (e) => {
     }
 });
 
-
 todoForm.addEventListener("submit", (e) => {
     e.preventDefault();
 
@@ -68,7 +67,6 @@ todoForm.addEventListener("submit", (e) => {
 const allBtn = document.querySelector('.all-button')
 const activeBtn = document.querySelector('.active-button')
 const complatedBtn = document.querySelector('.complated-button')
-
 
 function activeBtns() {
 
